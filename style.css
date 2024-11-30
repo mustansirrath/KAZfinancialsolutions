@@ -541,7 +541,7 @@ body,html{
     width: 15rem;
 }
 
-footer{
+.copy{
     width: 100%;
     height: auto;
     padding: 4rem 0rem;
@@ -583,11 +583,81 @@ footer{
     display: flex;
 }
 
+
 .secondpart-foot{
-    margin: 15px;
+    margin: 25px;
+}
+
+.copymarking{
+    padding: 1rem 0rem;
 }
 
 .copyright{
     font-family: basic;
-    font-size: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.marking{
+    margin-top: 5px;
+    color: rgb(88, 88, 88);
+}
+
+.third div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.third div p{
+    font-weight: 500;
+}
+
+.third .addressP{
+    color: black;
+    font-size: 16px;
+}
+
+.third div i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.third div a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-main{
+    width: 100%;
+    height: auto;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-about-left{
+    width: 50%;
+}
+
+.img-about-right img{
+    border-radius: 10px;
+}
+
+
+.img-about-right img:hover{
+    scale: 1.011;
+}
+
+
+
+.info-about-left h2{
+    font-family: headings;
+    color: #055860;
+}
+
+.info-about-left p{
+    font-family: basic;
+    font-size: 18px;
 }
